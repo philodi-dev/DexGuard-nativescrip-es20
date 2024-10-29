@@ -1,0 +1,3398 @@
+{
+	"build_info": {
+		"input_type": "APP",
+		"bundle_id": "922e84ceead810df9a465988531ec139880c6e2d81c5237bc8d440f412b78622",
+		"customer_id": "OP00025696",
+		"licensee": "be626dde003dc0542a41802ead14dd5182411c44b906ff12b79b35b8b308919b",
+		"license_package": "be626dde003dc0542a41802ead14dd5182411c44b906ff12b79b35b8b308919b",
+		"product": "DEXGUARD",
+		"product_version": "9.8.10",
+		"os": "MAC",
+		"os_version": "15.0.1",
+		"result": "SUCCESS",
+		"build_platform_version": "34",
+		"min_mobile_platform_version": "23",
+		"processing_time_ms": 84405,
+		"features": [
+			{
+				"name": "DEX_NAME_OBFUSCATION",
+				"type": "DENYLIST",
+				"configured_value": "ENABLED",
+				"default_enabled": true,
+				"active": true,
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"classes": 557,
+					"classes-total": 3594,
+					"fields": 1471,
+					"fields-total": 17077,
+					"methods": 1072,
+					"methods-total": 16327
+				},
+				"score": 0.5325079581316164,
+				"filters": [
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "627b2028e5d280428aee85027f94e98e518fe9e72874b48fea6f2e8d052f5dde"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "aee72a0c12fce37b7dea5e9231b978b37c0934deffe0b29962a4321efac73304"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 10,
+						"hash": "5351531438aaf8f4f477ebe1bfe43a8124c12ef5f9b7bb019e7c42f5213b585b"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "cfa5ef39c20977a881f73ec545ad8e95a662a7f91a32c988019f74a16dafc869"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 24871,
+						"hash": "2bacbb1288916b3f784f14deceb5485b6721a0cc9bd71d085265ac32b695cc21"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 934,
+						"hash": "7c1e4aeaf10b892ad0e84dcac8900590cef999c23f47733fb0b3f60593b65874"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 42,
+						"hash": "e108fa75a9a3401e53bc7e34de84f2327f38acb619277ee3e87d32e3684419c1"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 2,
+						"hash": "10bf421ffba3dc0db96b75238ee9b0c2f68ae67448fa94d91148224528474a75"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 270,
+						"hash": "ccbbb74ffbce01745ba69fdf05831c6f87391750dd6cbbc43a09ab288b71d04e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "55b2f3c2f38ac64e4878c1f516bbe531cf958a722ebb98bb37ba254e186f9910"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "55c54422494e49a1916d153ab1d97c4192700f3577a594a360451917a64a4d42"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "a8029892aaafdcf6957f3a69e6f5326abf98dfc8d2ef477da178de73a678a650"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "78b6333f2849b910131df55f20bcb14399269a7bad180adbbf0c4be0550d546e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 36,
+						"hash": "5a77096bb2efc1dc35d7e47b6a713cc246685d209b03d8fa86310c1b5ad6f381"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "f6d4788e24bbb00c45004ca20104a2edff1b1ef0fe00c98cd9d4100d67386409"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "bbd3747389330b49aa05e740e7d15e2221a41fc194c3c31a9ab18e93131591e7"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "6d2b80703a8e18ae0256145b21c4d5bafa236d240bb3a7793d9dfcd4b6ea8a6a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "eddf65e89c6782ba8f9f0fbfa8f9f47ffd141f643c1d783c2cce9d5945d8f398"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "f3dfb5ae9655405417ac9d9dd8fc5cb7916d48d88788ce2605402dce0d1247ca"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "985dc68bcc9a7300227e0b7c70b5c6b08205e5589c16cca83e2646c3ad7061c9"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "8020d0117311cd328f51f0622ad9bfed16dfc4338c6643eab9b502e18d258de2"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "a81e6a0665a9b0726e26c55bb5d9ccfce35740b88c421c759262afcb9f7e834f"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "e57fcf6ac059ea98a0d88e89e8e2dd93c8265689f1a50db1837650cc08079fc6"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "eb833d0785e3e945f5b85eed79f9bd3630832425d1a17243f0ccbdb0f633c226"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "86bd27d086638e378bdfe6304701dbf23a48b9e9da9ce71b18ba676ab983d2d4"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 6,
+						"hash": "617b41921bff8066e47d31ca5153be5f2e91ea60983e88afd2f6cf6d49a78c5d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b3ed9e967630f2d20dcdeed1b42d47d6673fc9eef8dd02ba895a19e56f0d5abe"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 1,
+						"hash": "4c594aa3f956674b8128b92c4ea9642823cfe645d32ecbe978cbd181337f32bf"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "e83e63756bb19a2c01e7143a79f9c6ff243de7777694a6c1d80c602530dfbc33"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "ed522c08576dceab24e0e07d107d19136780acf447dc438fb7c2d0c40edecbe7"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "0124aef28164b586ae075ade78f12d7fd344599c22e60efb1dc112c4ac8b869f"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "cf209e8e5c048670c2c68340eaff73fa9f3ae4987ef5e1e33b1335a013d3fcb3"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "d9389b6de035c935100e6feafc35702c634efd1287571a8214d49636ef3d63d1"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "4d85344e8af3c9d5ad6fab5eb3bdf82155b04d450c16991f107c835544b6e295"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "3ab29338bae79b373de48c452783ade414ff1501c2d52dd594bc467f16c1e1f7"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "086056bbae66113765e7532050867f6007d5f757d6e7ccd5a69cc3f340345b4f"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "0200d4fbaaf11084651f6db30e0556535345cd2a14f292afc0ed67bc25b27763"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "466d84811b7522d4b52df3b9b97e9e33e27da10681eb81e182f6efd8abf59364"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "608ac1b97d84ae01a2dd226dd2b98eb4155ba82d218847c652e9863ead8134a0"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "8840ac6588e3dda7a980206613fc3c4309a8b121bb634eaf67ad82b410397076"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "b6151ef7dff28403e80aa69ee0e25369de08753eb12bb118cab1f3f1e30111ec"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "38c426385f94e7aeec158e73dab6151d71af97de88205852336622ebed947c3c"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "50c428040ba989b19414f77cb48d5ebfd523988bfa3100926df95a78abc24c06"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "6c8ff10aa31b08a337c6f4c2331f5595e05d5b8392c65c12a0473d43f7cbe379"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "052a9db41be8f074be52f751088b16eb029fcf6c8819bc6064cf6f92c67ee868"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "c56c339eb6d8aba7239f07ae115003c67a9c88bd1d8f91a9009ef8fee88f0255"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "377ffffc05a90ceeb84f7ecc3d6984213605a2b157cb85910a6fd5b7c43ddec0"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "f1dd9b9eb51aad5ba19cab06686e06811482fcb00e9aa93af01a40d619dcae7b"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "0efba80684b80125aab1d4bf443307a079bfd926c51ee617cf4b6aef172aa288"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "c7ba5cac456e6fb0ea2c0ea6a9300ee2a1ec84e2c186f0c1754bbe74d15087bd"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "c1cf557a357ea7af997585cc60805910d2451d643ff3c48327ba0aac012129d8"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "8f2a76feb4ee065482481e5c8ff4bebb06c4a78ebeca31df468c4097499b60d5"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "224430b93504f6aafcd76b6e10bb07abe84517d40ef6584b007da99b9934400a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "f260460e5e3599fc29654153d5ce9bd66f114441bec0a3f6dad65a7fd1d5bf87"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "a46461659706d298a6bf79dc162d1a1100e07344e9bc7e05a7992c53501856cb"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "9ec06b4e2a573af7e90ef51f87756453ff7baf0216d41ae98acaf87543d5dd38"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "cf9b49ca176c9f3ffc2cba21d2b7557b6e59180062216bba6999d6d973e89805"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "4f8a2565ee838ca95c80b0e8ff49c23f385ef4c011ba679eb50bb4a834506b47"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "dababd56dd1a99509273f04e88f400fb3400f15bb0e627fc827c844c45abacdb"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "bdd40c7b75f15cfb25aa9eb36c871517e01b230b042bafa541adcb02faa1ff11"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "9a27c3a311c3b43ee724254c46036d38b7431603e8c02e9a219ffa5ed0be8ca6"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "3348f0e1df52ebac4e278bef5a349bedcf0d7de3f9a704d8960496550f045d4e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "90f762bb3a626338d2e8ca50526fb544d1a41232035d96d424c4fe78d6cf7e26"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "8f91c52350c4345fb7bffe993a64e0c74242d0e254a5764073dccd59b3b3256d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "8e5fe8ba619af51ea3cedbbda5f08cbea48fccc681893bced9bd6e285b29840d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "209080db1598732ee95d81b4d86677771d8afebee629e8f0c0d2fffeba7cd782"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "c164c2d56fba6da09cf770458ab22ad115169c0ba0e6d07b710ab946617d03d9"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "9cfa43c41e40cbe11f545261edfa23949c051b53e1efed00349bd77e3f657f8f"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "493910531d5f36ef0b6de3214a78a59508abaec0e38ca8829d1ba3cc7ad42958"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "fd8ca355daf8c0a09bd053b335493238897e1671cba72b3e8d25e9eeb91fa845"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "c138c74ad7e5ddd461a925107dd0c6eff4b87e8eb520479bcd2bdc92964879fd"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "23f49284bea9becca00e260d3bbe4e510429d550ec66eed9a2172c7823f70e19"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "10d6dd037ef7d1ebba43a5e6e0a6de82f42626128a11316f5c846695994929af"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 10928,
+						"hash": "16a2534dfd754a4e6e781defd3f039d6a07717d77780c1889e0b2a6aa935186d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "e2bff7fcaab03b59f5cbbecebea12828aa5cf81ffab007f7de0ced5a2eaedaf0"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "82ee9b7a1571cad91c5b2ed988894fbd01fc6babfd36de0ff83865a3ff33a539"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "9daa5fc398c368a60cdc5c9628f7d2213b5f38a94e73ae2b33b8bef676e2a72b"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "e2ed1d115fa901ba29c2361316c073b9b902ca84b5d80fcfb6ce5509b40c4a90"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "1d46a1f2e2d4e34eb501158e907828656eef156f954cfe2e96c29e4e9009f8ea"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "9e2df5791e132ecd47f829b43ca5f43784ea73e68d78b48672ef13f663a56164"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "1077a0554733c28c0b07bbab50a90c6e824bb3d4ba33ed445a610fe73694904a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "6a2631c4d9cef109a5c9940ea8d639df7da50b408706a70076e78c74ca871db9"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "42caf37dca632fc47fa5e9394de30583093436a477ffe0ed88847e0631ec9745"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "17f094ca05ea76c50e990347178f10a72d8fc0f8e249a55dcd98f9279a7e45bf"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "cc028089c86d45ce26d0ebf2fd2aa13141c2beb00bbb59b55767b7fb24ed30a9"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "5daf6b02e85a46827b79d5e48bec2e6925c4033984fcb9fe1d6ed827478ecfcb"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "5daf6b02e85a46827b79d5e48bec2e6925c4033984fcb9fe1d6ed827478ecfcb"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "5daf6b02e85a46827b79d5e48bec2e6925c4033984fcb9fe1d6ed827478ecfcb"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "662afaced8478a1d4652d95ff1d1fa294925cb8467b325690251eeec39414a0b"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "d1c239ab67ae50916db0c780406d31e310cbea35a76b10a6bdf5de838542e0d0"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "99e3dd5ba322c96fc515de61e108b6727d52811486a1891e625654dea0c4a248"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "db78a2e008e31391007f3335b76576c550f67279a0399d904a033df338e2cbd6"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "55a8bb77ea5d67b290b57245b0c6b307f37479a3d5362bf0b1cf26ba0d7acf2c"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "418a9e38341d1c942552fa946a183c523f17f5fe7e02977d5905c09a85f7c90d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "96131b9a205fa7b2b8d73d6eb16ebfef45076a78a7cfe577bbc541cc1e98d260"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "63e1ba556dcc209e9c98f772a136580af1d80722b240d7b68daa3cbc4720a3bf"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "d9f2f3fdfe1b6281495dafbefbcad2e4b9373f75dcb400f462d56e46f0a7fb4a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "3991775567fb3488176becb9a5b8d153c2ea45b631b1d3df9503ff0f20b48248"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "1da14cea8f50946038812ca955efb38159cf233261fcb6be9763d384586d2f23"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "8cabd7b32f37245163f3f71d4d8c46628ddf57a5a30bdc85397c31b040d5a8e9"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "e0303f644552b934acf9036f72bff4fc787d1227a8976ec7cde34dd578c48ddd"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "a9543c40f68890bbc3526a3d53eaa0c74dbf87bc6d8d1727f919fe2efea95065"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "320e60a9466f0e2e1bd0c6b65c91fca2e135d78551bb300669ca744b34de1ac9"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "c5878919222e1b7ce04eec597820d67d26b77083f55e9b77990c12f7fb170d1d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "4f6f6517ccc1bfc66e5bf4897eb46b5f8acad38ab61b00dc8511674670ea001b"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "65d8313f142bb1976e54c549329960942bba14845621f00462cb57400b36d554"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "0be20dac1a02312785198737855acb875191fe11e976f4aba526e76471a5528c"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "f99fe783e80579e5a8a0752afc6f0b000b86234e7733a715694b12faf6e02d7a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "a7c4fb547c5d91fc6b9d8df8346c805788bae9301493a7cfdfb196a0fe1b6276"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b537879316cd0bfcf8433cd0eface3f32723670d0083e434b5982ec6a28f4eaf"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "512d1a638ea9e36d8263fb717d000d2e611f81162997de0ddf2a58303261dd8e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b231bacc858407cab53d66fb9ad6bd2062d68457ad194fb58bccc3736e42e6de"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "8cef83ada92ebb5f8864fc7045794e7f97a9751757d78c233483a395a1869df9"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "c8c1d666987b3ab718b477522c468ee4af5a4fa85dc4cef77f37207e2887d043"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b6f3c08d149d08adcb7a352b4e5337a1d2a4e08cd79892b239821205e77929ba"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "0d84fc41cbbcca99d97b393015fbedebaec6036271715763cf5a9886c729095e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "37c64780066252cb3a169f8a0dea62a6d0cc85006bb9d29cac8f1dd49a5e0026"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "538b5d414972346bed60727fa89afaa283204b0e4fa45ac6c57aa1858bc5b94d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "97770da39721ce078540cdb6f0c69bead29d429142dd2521fa692a3778b8e16e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "86f1923a81583ce615806db67893688f2164ffc6ec2e1414c3c08a6f286b624d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "03078ef1a17f5c627f12644c0303b47a3a4ecf55e4d0093c61590c0c0494afdf"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "813a991925fd9bf0743c7b0e97727b19fabdcf8e80632b365b6b06e2609e31d7"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "0b154dd155ed560d526c2b27eddf9dd13ace096164687a235c1649da6f570f95"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b5238f27ad53b3b9237624408c3f8a9e337d3844b1226b103a2b34cc66fd7920"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b8514971e2a87a9dbf1e9e59804f88a5da4494b777fb461bddc4a63aea9b1627"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "ecd99ad1c91d32b01d23a5a44bab37c41dadf6091e376c103c3f2430e66e1b75"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "4856515eb5819fadb4781bb57ec555729891d52ea3405c133a41cb079f3cfa7e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "0ed5ea22dd70134c16b00c38408df7ead82f8d58cc8bd9cca24602a7b2b92e20"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "5432a0846330fb2307d24fbda647bd448ae7ff69f1d212b98cfbff9a489c69c6"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "99fc30322271a46bad41f10146718d697e6a79a82b4f00f401a8b1cbcf29b674"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "1ed9205bf17566bf76ae8f52d80dfa31a10ea2f491f60b511ac855ad0b48966c"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "7365819be39b84d82c064952bb075f63aef3c4f3d822ff087bf349cd34edc67d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "f1ae46efcbb991d214d68415d1354a6aacec68f6e6028205c3732302415bda84"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "fcf55901024fc823ebfb296fdeaf5fac0951eeded1c505de940985a3540b423d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "4122bb3cb923976b167a173a5db6b1e3a2219e198a87c33cf35f8d03f81068e1"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "ba88d7e4968543c915e735516932155458fda079ceb865b6f65720f4c74d7125"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "728ab7443176ddd04c5ee0b09eb907f5172fea4a4299c016b7a2bbc81a11a32d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "f1ae46efcbb991d214d68415d1354a6aacec68f6e6028205c3732302415bda84"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "26bbfa843d0abc1b37b6e54d080d8c235705120164286d1aa6ce003fe781b5f7"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "078bcdc358884ba2c82322e37dd333060862be9b1164d448da5b5ef4289a83d2"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "969d60483d9848f749c00237f2aa28b4efcb68e099e77cd985e46227734b799c"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "39fe6ff39016b9105eaab65fc54214809d78293b9f5f77b4c39167b15535f749"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "9b60857bb830236f3401aa410b3acec285d9216ced1735b1e27722f482ec7eda"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "971fb92d79d76d2d064e63efee0d47eb248eff5fcbbd01944c71fb9414bad69a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "fa6981466b89d52f855538505159209bc4eb2886f11089c21988074db72c5e68"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "58716073d0214e2531033f207157cd4fd19b370cdbf635d02c223c77173895ce"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "353ccff1cd958c90ccd0353a66396a2b2a9aafefd902d05c3c27aacf44f83f32"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "301932f7ffa256a1f462b5aa99ca0cd7d5d4c8053cd42ec6894fb103fd1d27c7"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "878e209a1e0f282b395f0947b8eb391bfd1ef8b8d29f7255d5e4c7474c502097"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "03e56e21c98720980dd6be6b4227bde258b7b455e8656b85a3dd1b74cd64712a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "54100176620697fbbc28a82e8b8237f2e93d1bf3f67ebe2d903b328f83f60f92"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "9d826f15cd0d5c85c1db96b5d44846a88e73756b5d492ecedffcb2c28dc22124"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "bfc37f9f61dc7a4d7bee5051b00e25f3be754e59933aeb691698f3d81714ca22"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "0828ba48a7a9b789ef77c1f98ae5d3d3888c1d530307cc0a1dc6998268374d6e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "4628cdb9b8c8642423f7a27d7856093946aa76b43faa158a10741cbcf97a8672"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "22738ed46f42c5de96c4cc16394ef935d6866d84362566e346bb161d996910ca"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "aafe25c21eda17728ea1bd3b682fee1a6051eed76c6e84d18432f3907d87b050"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "f7e2c65b0b7c36b9e0bae94fd7e86de86f3dbfbcf93ee6692cf7016aa3268f99"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "9e7da99dee22fdce646215c07cda4ea784e9c3470a6c12bfe1d8f5d46a924297"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "97862fadaac0c729d37487e9eca4a8099bf2ce546ac55f00deee62cf016a1c76"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "3af27c0049b05c977094736cc37d9d762801c57943835311a0618fa76dad94a0"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "9b75a6806ff304b45a1aa0eb337e79497297e33e1147a33ea0f20178d18942f4"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "60b714c2e86990a072c80b8121a943d5919a79dc9aeab0360a56db571ed8e06e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "bf7485f9ba99ef1c1a403d0ef5c992aceb86a3f934113758f356dfadc8a0653a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "d850694048d3a4503dfef0f60510b9a9eff09e1f15aff28601a6e11cc5be4fde"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "ed942a19da6b38a58354a38d9c1a628218f1e27900a687c39429751499bcfe9c"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "571cc885df8d9184be2bede1758b2730a5dd6d31850f4c4e9f49531e6ca82180"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "b3ee0885c749ad2d37f7038b45f7d34fd50f5177d34d0795c108dee9a45a73ef"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "13d9eef6c330154de49101bb09849b997167a307ed2afb5e37f65bcb74a8a5ab"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "9d6da887e1b7401d81bbb9906d75e45b86f9ddb0c901120d7dcd654ef585c314"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "8a522410ca0d32f74471d5577f66a6377a40f8e3b704fb1a65034dffe85da7cf"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "56b0400349a0882abc5c60b3a9f8499a7bf762a1e12d24c1817e0daf3b7b64d0"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "ddd0c9ef51573487176b8a17cd490cf04eb80fcbfe3a46f182b87433d1f9b1bf"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "304be5c8812fa8931061d1a440423303d79c20c6dd6c29ce20a90724e7abacd2"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "d3a78863b4796c022a37fb184807a001c08a404a7edbaaee03269755dcec91f1"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "66db5dc2948ead25ea4efd3536dcaf381b6de5a9ea7f34486b2a02d61d944fe9"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "6cf2a2edb4eee658bc30296a9732b3068c1b2804f5b2295bde4e1ec1844a8cf2"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "348b283674c7ac97184cdf5acad42dd145fe7cd80cbb417e03097f8baf856e70"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "54bfbec9f5345dc69a7881e763ec9f626517baa6a385733bb9bf63b843e383cc"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "e311734ac39090f21efa0e7c58c0aa44cdc90a9cc17d99dcc2432a1b95735399"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b74c24a444ec4820928514728e1c508918a1bcc365d5f854bcba053990e9c41d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "79055a4ef576081db5966ae190a1968983a59eb4704a21ee540a3b399f31ce5d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "5c332f09d002a82c1adc32a28ccc08cca77b8058cdd74d48d573776005157998"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "cb9f6502e65903735913eb76ef84c93ba054c57c2f3d4e54d0b661c147ced531"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "93c9d69d56cebe667d45b966d0741299b616e33e8890921b5f7393eae6e41ef7"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "836123398b35975d73f84d5a95a76863b3e8e90d5fa00daa31dab8d903e78f2c"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "36940f58d5a70c4c603101751f285b652b0a16d10881003d17f8312388af62ff"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "9d3c88928287d039ccecab0a215a3273aa2d25d47f5b80a7531573073e29ff61"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "7724a72f96ec335d13c20fc9bd27be1c6b17850bf8cc4837ded65e5620f21a77"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "448a4d22e4dae34f9bc84e230694cdb315b6773589a2dd7b6f6e23b07eba60c5"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "8ad378150ad3eb4b75785b7ca718de60f9541e5052714182aa2cfb98ad490eae"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "1c122df63d6ec8fbc8b11073d708ce00218f689122ac27d654030b328f478fc3"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "14eb78c1ad7a6f2eb210a1863cb6006b5fb11ef762b23b491ebc7adb3d2352d0"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "1db6f40e0200543e0b86bc2ad1214ada484c594f4cd5da07262dc4f40e18c80e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "5218a0149cf5b41ffe7a0a6b39598fa8de8c27c1c789477cf15bf8350f2ef3ab"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "9154242784d8584e675c45ae526c8a916b9195e7d2c51f30c9a22c77b8923e54"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "00a82fb491fd04ed16f77e8f4a0105108dd51a76d838b8aee641c7af65b5a83e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b4e7c11f28fb3054e9a0854a80844eb5f9a401495b0ffa59f68bfc804b2743e8"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "ba9fea514cf8e60605da4b1d78ef75afaa6fb45a885c181133b309599ba668bf"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "cd6eee5cc5b89ce64fb7c5bc6731e613ae33b82a17ae704436e900c8bc6ebb96"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "26ccd271919da76e44401b85c3c1898f8d8339a595bebe1473e699ebd573781c"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "4d58a229dfdc4cefcceb0e3b3ab15efd4b84765db45b2b24318920fc08cd72d1"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "51a5df61b1a33b4460de60bbc97a71560e5f45dd7a383a72137ce223f2835ecc"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "68ff8ebb9e952ffe998c55eabe3d23ef5d07da16d34976c3a9db49baeaa91e5c"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "68f835d3bc00068ab9f1ca420f62194a45be927bc30a5e545e006922daa31de3"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "f3b73c519e714e1a440d648096290e412126b756121cf0fde1af04cf52ca67f4"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b2ddd7de936567a52cd80ab3823eee3b187dd5e99397c763d8e638ffe5a12bf0"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "9d988cf68f920949690652bcc6a24f666e892c4e6be109d0c57c779037f87631"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "179cc60596b6a78a732f03d70efb793d534b29e82eb710347f893384d70fb939"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "91a7d2e9b39acd90a7c840324aff98c7fd0de6caf881297d8cd387f6ad69abf2"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "2bb51d6e2e8b586458c6e50e949190b627d2faffe9e23596e8122948db387886"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b1be0f3ba36b020f9ae62b4f739628a0966368d6deb0063eac14b0b80d370f02"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "e3c0fc0c5da92c873597d444721a567fec69fe2a747340a25ab7d05ac24e1080"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "c4158e5c781a2ebbee6ebdfcf6c2e55de3032c247ba39ea9f2b6e30418cb9f85"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "89264f81c5b78f047ddbd779679694a490e628c623475cfb3978e0851b09a274"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "57e117ba69d59c3a0d43a669437978147f845730fc6a994ab9f69a0822945485"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "e6dcd74bf92c7f658aec613c10b1cad53a96ab882b257a99d243c18664a89261"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "7e5b32e4bbe8e1c0b0cadfac5a7e17b3e70a1d5b743fc3672efe5cfb1630e261"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "8a0740fcce90ad352daff63782fe1b7406239df4839291bc4f548d5a16e990b1"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "3973ab645dcf9852fcce6c724cf62b73f998e03cac1556765e9e0fa123579407"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "b42a05845739c4119fd018195d57097114e6fa055fdb7acbd3716ceb7610dfec"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "0df76e00de0e590859b7825951eecae0fc8fb4664aeeea4205a0302f94aeddb7"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "fa1a04e747117bba02633c14a40a3c7b9d3c0daf61fba60cb95ecbca3b3c7051"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "7c3e4c064b6b9cd8ff385ed4a4a56640f380169bfb0b9591a6b7c562635a8cab"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "c7d55073c20b658137fbdfba227104e1bde44c8ba7c5435f9b5012b4ec2621be"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "cd12d201aee95967df5474096461e5f0806d5ddb3c9e4cb06e24ad72808ce2fb"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "c652609a14e4398586a06404153dfd39405886f4cf2407c6b02d4b8f1397a300"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "fc5c8e6d0559d1284983d7391b94d971d71c9fc82533f07b8a3244bbd0101ce2"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "99b2e582a703601dfa5f10f363b1ed4f04ee2efd76af36369705e80bc15a85dd"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "4e24c1e621b4b65e371b59c9720b7eb8e2cd899276d2bc5c7640fd9d33ae4a54"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "ba6aff9c365a85facfe50f86a227142db96171eed55c2277eb6a09839ad8c646"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "d762f1e77013113470c1d48bff66f1fd886c7949d128b90e6b17cea8a7fcad04"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "f61b5dd9e183e6439df80060aa4cff80278d90a2791cac5b240bfb272d2dcb39"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "0195a2d9591351ce4b91dccfb1981471f3b548fe08a2c7680eff53efe632380f"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "806b3469ea10773113ef05ef4dc0e74038feb40f435ca897feb69b47ce809357"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "0d60c8f6d52e107b821a5c63b18a20f02371c2e11a1aeb97b4f9727d727c462d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "9bd15a43efc9c45997b68040c4370a374b894f4bb5547f35f64e4a17885f01f3"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b1ab3eea91c20e5af721678ec280176293c801418e82ea180e7283b0cf4867ea"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "8ac129a1b77399e9960d67facf7bbef375ab251476e4de80ddf785d66aa0b67f"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "d7061085fcd8ac0d3fed6b854bef63dfa873e194ca326793dc149802ce25b477"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "600c4c010a567ef84051cf2a84d07dbec91c0be96b089a75014afd51d522ba38"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "275e87ae74b2431ff5b5a75f8b4df3ef9553fac9510617b370ea33c85b8acfdf"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "a0b06ed9d18a843b8e7ad4f6822f38d907d26c00370e42182ee56a62ba30d8ee"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "71b405f4d22f6d2a7d62ed7a69ab4e4ba76ac2609acc8072129f3f2fd95468a8"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "31ea0849ada32f25294a1df9cdc8b4175e568a85887bd63128bd711f67705421"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 216,
+						"hash": "7ff00e2ccad3163b01bb4ad8f5dced851c224769af692254161af7acd0d73261"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 27,
+						"hash": "d3cdcb595fe94cc634249e4e1c7f22cda4ca1fdd5dde64f5dd70dce6f97b4d08"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 3,
+						"hash": "cee40874b770048f2d4c882cb2f5ffbbe5323c4d74566489a21102cf616aea41"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "525f3a264f87148bdde1b281b58be6e8f369d56c48a5f36d357d9557a09a21d3"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "7aeb1453965fae25300bd92de5c20297f288941dfbbd83b1bf4c69665f886c3c"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "198ec06e84c159b1d824755906c8a69bcd034c78031d1af3f4c73ce8c2e3066d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "96f2627db23b0375224a05898cda069ffa77b9bf6530f009608edc3fdfe34702"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "a708a3d6ceb3f65ff52ca886bcbaf8334a8ca3fe7eb2e0b896b1848cc45490b2"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "c8a107012afb51286a8eab4e3b8dbc7cb3946ec98022a311afede90485ea7000"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "c84d91f985df280c52c54586c12c5b91dc3accb2967f912c35aee84d01a75650"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "9ef40c5c0a4a5dca503ba955d7bec0c0424f9c3beb6b92b35cbcbdc94e73f0b0"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "e7056bcb49a6458a769b29cd628f5bf92371f8122ec85faa67684aade7ccb4eb"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "c5012cd4ac2d69a324336d365475e5f854ed6835253c1ac97e7f7d6457207d9d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "d23077d82b606b27512b7460a1bfa4f026e733d117830267fd5f04d8f08a28ae"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "aa46c7b4b63c7a733be2dce336a86821c451a08d1d3663cbb8354f76a5fc1f8f"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "985a831e7f8369d2c3f85f4b48e347a65ed94d2695ab09a240f3133c040edf1a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "bad887c87466cd95c4f968c7117856f1524193696772a5bc3ae92a127c89969a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "d8ddde0e442aaa193f77c7516307161c7c1b204af85cbc76983abc19d49fd34e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "67dcf561a3fc7a1e28d103e3c95045114082668d9eab815b65df36aba2ec6411"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "da110affdaeb71432a1c8d8b953c276f53023c8a444f1ec0eb93049fb0ae77dd"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "bddcf4324138a26c74696e06abf0f14e925b6f1581fd56ac5d257373662645f5"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "6d6d3167111e8fdaa061ea208fdcfd5f3a56cd89530832bcb0cd94850b7080f1"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "cc868bc223918603d41d6e08169eca73357c502df9d22ceb2907164e84433eba"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "e30f226bc7391ed7e64c4fd074e1bc4f4cea0c6b764c1b73a37c5822ea31faeb"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "fc6558cef7e88c8776f75905e356d952b772ec2af8bfaa41b4570a072940b58d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "1930be67d4f97afc32fbe0edb2b15ba08f6dc3681283528562e1cc2a14419914"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "6dff5bc31b2ecb51be9fc322f8764839de2acc5bf227f84400943e146ec22fc0"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b7a1116e4a05c177c1e2cd9852a149154faad44f532d248dad2919a049491d5e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "5bfd508d2fa1a047648b9a8f7b17c25d7188039090ea9330320797f49ca27f58"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "8f5c0305b25012d20e51d60f6b02fb9beca4aff3a5ed96ea591069c6b64d005e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "15d63c581fc543f0d8927e3b9bf2cd3da704bab7a9cb35d6b907712b42336b2b"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "83e50179a22c2784960d39063757d8b4fe3cb56583c7aa61766278d205cb221d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "b614ccc48d71b02c19810d1ae2f592b14f76bacf2ae06f19aefefffb7b3bd501"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "412791e9d24c3ecdfe38f428d67f25e824265cba5b74dc9688823fc5fce8e5ca"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "08213f90e11709d367b11b6866c9c7f4b59f07c3333441a6f1bcba820ad7f388"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "e424d7119d47d4697cc0424ce1d73761b1b84aa99edd12e9555584f0a5ea6fdb"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "30d7765623fae2a1479a1b8b325450a7da6d709ccf8bdbd7c38abaf3f98e842e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "1adff3377b431fb56eed2fe279992bbee1eb3f45a46af78702745f3a0acd8179"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "6dea8eadebcaf4cb3994b92f433d776f0909b4cd14afe20d5c60d155c09771cf"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "1a709d6dea6160ec4499a0146e411931ff63a32995862ddde36e2563e00e1274"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "5974ad4b88921da180fed7a3905be952b8916a6919bd70072850eab118d9fcd9"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "de19b880890477fd43790c76c638deb3263fe30d164310891a52a75f8185b31a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "d104093f7d19b5b518e28e5d341c323bd8577162696c0fb4a339937201444ff4"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "fd0b35174307bd8cd00d7b6123f45eddfa8fc6144ea8b11e522524ad3764919e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "b463e79a8ca279bd8b47d8be6461598049c963e74b80283b54e17f479612b4fc"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "972b530c0d287a3cad1eea3bc46ac67f369699afe5d23760da1e36da4a1f1394"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "6b0a9adecbaa8c7589f292c0111c91583f3a35141f2633152d608244136e8390"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "37ccf4d05d14113b7573aef1451660bbc7344212092c21281db54591b04b7a42"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "9861a3ced0e0c463238f7560688cdd28f885945c0d0c190340050ae784a7c9c7"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "d17b6e1c2df6c06d55c6e99cd8a7ddebee51f56013afe93acceae2fabd57d1fb"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "18dd5b4e47d829b3dad408235e74624e7f215fafc71f00266dc181c56371fdce"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "f3e8556ef799ae7a461fc6e3bae80b7de16d21c2863205ec2b952cced135979e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "ea1cc7bf645de6df35a6fdf66331732f45eb256ca82b8563eeb805e1e2e63bd6"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "58ce8be963dac51d9fd8fe8ee6dcc7caad1d937945e4965e9726a0295c7e8c36"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "3c25f2a1cff5f4c8bf097a12bc5dc451249e43d6b88b1cae87abff69ab8046d9"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "bc040697358b6ed7066629445f37ad7b1f0a5c08e0b7b7fbcae40fcce10ee220"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "f9c7a59276d34267f41f600455b43a55b0dd9bdcaa82afdf15a8d7245ac68614"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "fdd5847c069705a8e90cfd7aed24807d52e30b0ffa1d9ed5d00a999d5d250f83"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "cbd9e7ebba1448e4664dbf143a13b7b91f734f7e6d66ee26219104dbc713e01e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "c584b3275dd0280c39aafcad8564ae12459e1cf7bc72d342ebd6ae6d90518d65"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "a81faee4cfda1ee00830746e7ee00282da2d3f59f3e9784f368ccc846f8f0e6e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 45051,
+						"hash": "4019ea20fa224af86d8ca76722979a651a19da6a7aca8d6580bd32a8742c54de"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "a91525bab56b789ef3a36b4c17d49234c60efb45fa0c79708ddb555ee3fd46fe"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "9bf025cd784faf678a994f4972805c80e8a8935a86e47c78ae03ab9c52ba7872"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "e82947640cc5c3c2ff213a6bea81947d3998dce008b7aa11f712bfda95306a5d"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 17,
+						"hash": "fc9ce0f5a07af11c22efc46b416db1378fe76413a9edda243b6f4927c0d7a39f"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 1,
+						"hash": "f45cb03ee7763151842cd876d97cdb81cf3eec6fc34efc8080b4662f146cd182"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 2,
+						"hash": "551beb7de8ca57e31a2ad70db78c9a0c69c83a62f4ca11ced1d681ae2f8e0b68"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 1,
+						"hash": "ceade80b769ac8a29e5b29d736de069451ffd4e8cb7987defddabbea01d31655"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 2479,
+						"hash": "02b3865cf84852b5394e81f79d83d0959dcf5098adb471bfd2bd5b4af86b58ac"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "841f7bf3b372fa5aa27df9afcfa7f6f7897d3b2f697d9eb954826d8deb0c0306"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "7892622156c01019b3dc1f00caa4351e5be7436b2c24a91269b774d32f6280f1"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 3,
+						"hash": "c2040d87be60b4114de36746a61b533bee9559283911c16cad9abb7e75a46c16"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "4f303fc425d112abadf0daa373bc0534a36069bae7068136663ff7a3046beff3"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 16,
+						"hash": "5b973b271c86318626161f29ccf6ff0120704343177d01568201b2e170efd4fc"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 4,
+						"hash": "0bad1ad2d027249dfaa7780e8ded7c4fd89566366b04a4a1426b99498b090445"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "1d90cc6736629d7a5358f78b6290fd96ce1328ebef8e00b2cd7f6c1422b8817a"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "47e61d304b0a5e150c175b7824eab47502511880a545c426f45a60d2eb9d1590"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "69e599013c83b50363185f37a0b3e0d112b4e49e47c1d9e29bf8da0020fcc63e"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 467,
+						"hash": "95c187ed7b16b9964d88784812412dfbb030854653d1f8c301bb6317ab13f11b"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 4,
+						"hash": "90c7d4aa78336e0fb4e6116fe18ef90c8ae112885a458bbbd7def6808f57d775"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 1,
+						"hash": "16f0b70dbfbc2f8b890b4eeafb522b690eb1e6a62066f3b71abeb3bc5409d3b9"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "0a0bc50e3c2a6bb33ee21c281f4be2e7e8298e8684780fef22b4b556a24cb864"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "efa2cc20d978ddeb8e031678279060386fe816323ecca7cfa54ab46327a82bf6"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "689a0a21a55bfbd845aa13825a8a366eeb27f6736a5e7546484eb7fa60a62877"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "7698782f80b6b6608e0e776762742b0c848b6205c1f240b202c30628d9eb0358"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 9,
+						"hash": "c0689895d280b20e3f0d4ece967fc4561c05323773eea9bed792fffdda647258"
+					},
+					{
+						"type": "DENYLIST_STRUCTURED",
+						"origin": "USER_DEFINED",
+						"invoked": 96801,
+						"matched": 184973,
+						"hash": "38da6440a852afb65696d3e947bfff459f9272f6d6ae67fbabc295c642c90507"
+					}
+				]
+			},
+			{
+				"name": "DEX_RESOURCE_FILE_OBFUSCATION",
+				"type": "DENYLIST",
+				"configured_value": "ENABLED",
+				"default_enabled": true,
+				"active": true,
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"asset-files": 0,
+					"asset-files-total": 0,
+					"native-libs": 4,
+					"native-libs-total": 4,
+					"resource-files": 350,
+					"resource-files-total": 350
+				},
+				"score": 1,
+				"filters": [
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 428,
+						"matched": 13,
+						"hash": "00461fa0af3d66f777c884931d84b733c3f750f3b1d69f253bb9695e21e10e19"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 415,
+						"matched": 1,
+						"hash": "90f0a3019e1c91cfede9d4eaf5d6527ba4925d0a5ae75e97b71dfd96d365773e"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 414,
+						"matched": 0,
+						"hash": "c5ef458f1c635c53e93592c0f2ec9d3b1b518dff1e0dc8a138c5881c3442c53d"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 414,
+						"matched": 1,
+						"hash": "8e20a9121fad0debce7bc3e9cdd2bfa2b12bac15aaad553798a0ee537c0ea049"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "6cfae6e0267de32d57e4741035923c5adfa20ee5fb70f0bd5be453107392525f"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "5b79cac04a0dd86c09f4767e112f78846e45a8316ea57436563ff2c92e5bc4e3"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "bd3a0dcc05dd131c711831d94a75a920b082df858c6024495fa9849f3f466a0a"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "bef0e66ec67bb206e4b53e675f12c858e813583ca3a850e717524e8b089ccdcb"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "492a7284bf93078ecb56c8014b430d2a5bf552d6ebbf97544c73c8bd13ed13bc"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "272064f789a234dedd4381c4211924c59120fbdb5aee8d2a740ca9aa4c443204"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "6b4409db90ca24910ceedbd39db6712400d57f56342428794699402737bbedf7"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "2af978df457fec15d8edd173625f8b135d2204502f27d7674973fcdc838e43de"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "03e7db9e2880a2595c3334f26571351478674e2973fdfc4a735fdb19d912336d"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "cf291ab9375e647f7ca3481023936c8e7769683c3988bb7b55a3c77b9cf389f3"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "d3ea741a1c507dcbb94683ce516f663617106371434f8915a3a53d20ec31bc5d"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "5850853b4ede506fe4e29c941b3752396b477c5c4b23bf7c3d464431d3ce5c2c"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "7d24d82813ac002c2d503d6242e8a55f1e98980575ceda2248186bba73fb1b5b"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "b0523a3d922a1a7c9231b97cdb83916981914d7524b7f1241f41c593fe68aab6"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "9575649ea7049504e5338c31680350dac4a765cb0d362faf76ffa9f05a1d1ce9"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "109b6a574fb48ad5114795f67abce43783e27623dcaecd0c50b5e69801290718"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "0a1d97ad5854df596f8ce95615fc46bc0d28190e848c521c8a61bb92ec28ac22"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "962753946bd71be675038dafc368d1c1ce49995e856e4afd2103c273f305cac3"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "0e0059ab5b0e0593fdad20b19abfa8a40a39584b5c645f82bef5038c79a45d51"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 413,
+						"matched": 0,
+						"hash": "390ed900993e9df94cfb1d0cfcb612146eef920f833f208e4b9a728ab59e0d4c"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "USER_DEFINED",
+						"invoked": 413,
+						"matched": 12,
+						"hash": "50dd9afbb36816079a272d965e3bc35ea68fa01eb9a9adb6d734b64bc73ef1ed"
+					}
+				]
+			},
+			{
+				"name": "DEX_RESOURCE_OBFUSCATION",
+				"type": "DENYLIST",
+				"configured_value": "ENABLED",
+				"default_enabled": true,
+				"active": true,
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"resources": 1270,
+					"resources-total": 1270
+				},
+				"score": 1,
+				"filters": [
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "83e0075d8d17e9f8000a366a816d64d87230c23396c87d733c231d1639d560a4"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "15c0d54b4bbc47ea22ae0ded5df7306a1631a6523f3037fde34579fd9a3fca76"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "22ea3097b760371361fc12711844e360f8bcf7b02d02802fa1a8831bab4d80aa"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "71b12eb31d8ac630bce30b96ec083bd8c25cec2997d566c8f6c4c23b63a27adb"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "4a10f52bf56ead354e7f8437d69d50f97be7e1a9ed162559265e3de9eb87a05e"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "8dfcab8fbadabd22a2dfebf148d3ea35095e1ec0fabf6d3d313fccb6584c8a78"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "8dfcab8fbadabd22a2dfebf148d3ea35095e1ec0fabf6d3d313fccb6584c8a78"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "76f7a2ff104d3ca1c1f85fe9f82a144e6148a4416ef92c5b34769b1363bd1a30"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "589e19c4c30a3261af335c260ad32e02930224d72498d685dac8bdb4cc71faf6"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "e380193c58853d14dd4090d788802bdc51731294e1103a42059fde9b557c7bff"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "e380193c58853d14dd4090d788802bdc51731294e1103a42059fde9b557c7bff"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "311e7e32d138807d2c9617e87f1f34b78383708c207cb801cd09448a62038fa8"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "8b3e1060d40933cb478d583f87cb29419c21c9344ca889402033b856df716cbc"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "30a60d914e9e062a710e2517fd902f9f47e481f026b0ea19ac10f98178cdb6c5"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "6843ebddcb164a7935a1c10425532b0ced66743e70ee4860798a9fe0c0301ce4"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "52b1619798bfa44fb7714835be731a42b043994db826a869f88c4decfe668a3e"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "891cdbcae92dec06d1a43a7b3a307685890b52aa7745fba99c31426a8e842d2e"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "221a29c2b663efa0f7fae395917e6e4d54241638dbcc4d7e8e005f31b328cc48"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "84cfe3abdc1cf8e6fbe97b88f8a4d4a2fcb8a95f5e75d0501b523d5e977d987e"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "ca15dab9531369c3bd63a870a3984c0bccd6e35912d31a1320fcd7487955a823"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "6e7288b3c36b81aa1ea24610ae2286f250bb8eb1fc23a4c45f38bdfcd223f139"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "b1a2113ae2fa3dc174f0cbe8be056500da50f2b9359de256027d3f5059c36b3a"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "deb491e7de6f7dae26bf8a309e6cf73c4dfda7f140c1ca5a1acd8a7e1e3fff3b"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "e59db5142225cf5de7f96fddb80be28edc342666cf2ff12fd51beee7eb8f4623"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "67e5c7d62c094cfbb850720498544b75f8f8cf602ba50a783a078757d333b9d1"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "7d3ee249896db20de3be78c99eaca0f8289b40761afb053b67ea0c8a87fcb256"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "2adbd3e5188eaea16aa94114c24e09227ed923f8e0e0cb4c7cadbb60bd96d81a"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "cf8b8504d4f271662e40966b7bddbabdf8c955c1d5e713fe1564fe1c7dc58ee7"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "a5f0e6eafc31eb2b2032b09cff4c3e9aa748083f89cb13dde64624754a663a5c"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "c1a89f59bbbd2f83a1399ed4e432cd52a2ff7ae03d55458dfd5de99546397678"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "1efc299a4387b6c9d2b67e82f3ffede77ff2b617a295fd3152bb559a1bcd8a36"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "3decf67724fbfdb28faae139f49f9dcefa7c029985059ed20410220bef8684bd"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "4e525bc1ecb5fcba45b0214cd6129b3ac91be8366ee464d6f42278731d07a39e"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "5b241b57048e62b3821662ecd00001540cee8d7578970d9e9b301a977862fcba"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "de9bde5a4d062c343fc1efe6cbac021a750ee3d44dd7590abf839cd23d163c6c"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "6ae35212651a501da6a085f49b89f98ecdac12fc3ed04b3b8ec0dd039e79c854"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "e38bd99680f0531112577da4a34447a7429287dc35c4faea9c8d6fd34686fc6f"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "73e9aad6bbb3bf94a1687df87bf08c7446b156e56d7a65ea79ba3e787b12f5f0"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "1f83593e5554227f508566db78054fa796d6b88092224df6f0d2706f810cac11"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "e03ef2a33e2a4672ec2111532f71b3bf3d8f41a18c433558716c5d3a72638ba9"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "1a17230390ece0f8474b41addd7a1c9b276afcaa6845dc8567eb7f8177ee00c1"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "dd0d9847b6b472699488ddd36ecd87bcb253ca32f1454094be8887eaaf17fc3e"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "450a9ba7821ede56cddf55ccbbfdc622f9524fc73d6f282178c4057964b3d9aa"
+					},
+					{
+						"type": "DENYLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 3948,
+						"matched": 0,
+						"hash": "6dab36bc884c982c10f07184f84ae9d2bc38ed06fb9e89d4c2c11fffd7a918ff"
+					}
+				]
+			},
+			{
+				"name": "DEX_REFLECTION",
+				"type": "ALLOWLIST",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"reflected-class-references": 0,
+					"reflected-constructor": 0,
+					"reflected-get-field": 0,
+					"reflected-invocation": 0,
+					"reflected-put-field": 0
+				}
+			},
+			{
+				"name": "DEX_CODE_OBFUSCATION",
+				"type": "ALLOWLIST",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"methods": 283,
+					"methods-total": 16083
+				},
+				"filters": [
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "942f8a05056a67db3aa04e3c8552e1d61ba8dd81d5b306de799a82c86e37f40a"
+					},
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "555c642f18a5f3a8f7e67f06edde94d4c745e1ccf7b60f8e0121a75508e4985f"
+					},
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "70c8db7ba34418b7ca9683a3c0bf1ddb4ea8be0cd52ea7896b3415bf0e505146"
+					},
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "ed0b5eeee81c34f2a3326c18297198785a106a20c0f4d4e81c5b12365a9bf35a"
+					},
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "85f5070dd7106fb7ef3ada8e09f3ffc1755be5bbe0945bf2af5b6714382a8e21"
+					},
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "3b2005f37c185cdac243c3d418f7b3dfa33d2acac735cd9cd6114ee10d13723c"
+					}
+				]
+			},
+			{
+				"name": "DEX_CODE_NATIFICATION",
+				"type": "DENYLIST",
+				"configured_value": "OMITTED",
+				"default_enabled": true,
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"bitguard-processing-time": 20747,
+					"classes-with-load-methods": 51,
+					"denylisted": 0,
+					"dontnatify-uses": 0,
+					"encryption-groups": 1,
+					"generated-methods": 31,
+					"lib-size-arm64-v8a": 521576,
+					"lib-size-armeabi-v7a": 553592,
+					"lib-size-x86": 551072,
+					"lib-size-x86_64": 572896,
+					"linking-time-arm64-v8a": 4240,
+					"linking-time-armeabi-v7a": 31,
+					"linking-time-x86": 32,
+					"linking-time-x86_64": 30,
+					"methods": 65,
+					"methods-total": 0,
+					"no-field-accesses": 0,
+					"reused-methods": 204,
+					"sequences": 174,
+					"target-classes": 79,
+					"trampolines": 0,
+					"unsupported-instructions": 1120
+				}
+			},
+			{
+				"name": "DEX_CODE_VIRTUALIZATION",
+				"type": "ALLOWLIST",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"methods": 0,
+					"methods-total": 13982
+				},
+				"filters": [
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "22177e969692a1ecf0d3c2adc1c175f9b4438d5e63cf0eb1e3e3293af92c7087"
+					},
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 96801,
+						"matched": 0,
+						"hash": "6b5609492c206475ba0fa1953ec1438a80464f76c6743b8c390de836c6682344"
+					}
+				]
+			},
+			{
+				"name": "JAVASCRIPT",
+				"type": "TOGGLE",
+				"configured_value": "ENABLED",
+				"active": true,
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"score": 1
+			},
+			{
+				"name": "DEX_STRING_ENCRYPTION",
+				"type": "ALLOWLIST",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"strings": 0,
+					"strings-total": 1878
+				},
+				"options": [
+					{
+						"name": "DEX_STRING_ENCRYPTION_NATIFICATION",
+						"configured_value": "OMITTED"
+					}
+				],
+				"filters": [
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 21327,
+						"matched": 0,
+						"hash": "5e58d884e4b391e7ddc734a8ce0f031ca3dbdb6735eaaeaf5592044247dccb93"
+					},
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 21327,
+						"matched": 0,
+						"hash": "4a6a03b64f5f8ee458e2877198cfc75d568ee7d5fc9c2ef4d1b4d0e423c39eac"
+					},
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 21327,
+						"matched": 0,
+						"hash": "215795be5e4aecff0593ff7ce396245c7edecb229234549695471684b6085a08"
+					}
+				]
+			},
+			{
+				"name": "DEX_NATIVE_LIBRARY_ENCRYPTION",
+				"type": "ALLOWLIST",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"native-libs": 0,
+					"native-libs-total": 12
+				},
+				"filters": [
+					{
+						"type": "ALLOWLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 12,
+						"matched": 0,
+						"hash": "9b34000bfb0dec0c4d7d34e7fb65d0c2135640c1181f98b18a5531d220a1a4b5"
+					},
+					{
+						"type": "ALLOWLIST",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 12,
+						"matched": 0,
+						"hash": "9c1ca6e07dead61f45fdbe3f675e201876437f82a5802fca6c99d34a41662c2e"
+					}
+				]
+			},
+			{
+				"name": "DEX_ASSET_ENCRYPTION",
+				"type": "ALLOWLIST",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"asset-files": 0,
+					"asset-files-total": 13
+				}
+			},
+			{
+				"name": "DEX_RESOURCE_ENCRYPTION",
+				"type": "ALLOWLIST",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"resources": 0,
+					"resources-total": 25
+				}
+			},
+			{
+				"name": "DEX_RESOURCE_FILE_ENCRYPTION",
+				"type": "ALLOWLIST",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"resources-files": 0,
+					"resources-files-total": 0
+				}
+			},
+			{
+				"name": "DEX_METADATA_ENCRYPTION",
+				"type": "ALLOWLIST",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"metadata": 0,
+					"metadata-total": 3
+				}
+			},
+			{
+				"name": "DEX_CLASS_ENCRYPTION",
+				"type": "ALLOWLIST",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"classes": 100,
+					"classes-total": 3479
+				},
+				"filters": [
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 0,
+						"hash": "edc78c2c3fc42b93ba7dcdb3990be19f973c1f6235e22f6ddcfe8beba39946ec"
+					},
+					{
+						"type": "ALLOWLIST_STRUCTURED",
+						"origin": "DEFAULT_CONFIGURATION",
+						"invoked": 7377,
+						"matched": 195,
+						"hash": "aed45b0917ba3857d1941193514913622f18df5d80b5c375fb109ce50d506019"
+					}
+				]
+			},
+			{
+				"name": "DEX_TAMPER_DETECTOR",
+				"type": "ALLOWLIST",
+				"configured_value": "ENABLED",
+				"active": true,
+				"has_injection_config": true,
+				"spray": true,
+				"entry": true,
+				"aggressiveness": "MEDIUM",
+				"metrics": {
+					"injected-checks": 5,
+					"injected-checks-targets": 1538,
+					"manual-checks": 0
+				},
+				"score": 0.75
+			},
+			{
+				"name": "DEX_CERTIFICATE_CHECKER",
+				"type": "ALLOWLIST",
+				"configured_value": "ENABLED",
+				"active": true,
+				"has_injection_config": true,
+				"spray": true,
+				"entry": true,
+				"aggressiveness": "MEDIUM",
+				"metrics": {
+					"injected-checks": 3,
+					"injected-checks-targets": 1538,
+					"manual-checks": 0
+				},
+				"options": [
+					{
+						"name": "DEX_RASP_CERTIFICATE_HASH",
+						"configured_value": "DISABLED"
+					}
+				],
+				"score": 0.65
+			},
+			{
+				"name": "DEX_DEBUG_DETECTOR",
+				"type": "ALLOWLIST",
+				"configured_value": "ENABLED",
+				"active": true,
+				"has_injection_config": true,
+				"spray": true,
+				"entry": true,
+				"aggressiveness": "MEDIUM",
+				"metrics": {
+					"injected-checks": 11,
+					"injected-checks-targets": 1538,
+					"manual-checks": 0
+				},
+				"score": 1
+			},
+			{
+				"name": "DEX_EMULATOR_DETECTOR",
+				"type": "ALLOWLIST",
+				"configured_value": "ENABLED",
+				"active": true,
+				"has_injection_config": true,
+				"spray": true,
+				"entry": true,
+				"aggressiveness": "HIGH",
+				"metrics": {
+					"injected-checks": 6,
+					"injected-checks-targets": 1538,
+					"manual-checks": 0
+				},
+				"score": 0.64
+			},
+			{
+				"name": "DEX_HOOK_DETECTOR",
+				"type": "ALLOWLIST",
+				"configured_value": "ENABLED",
+				"active": true,
+				"has_injection_config": true,
+				"continue_on_callback": true,
+				"entry": true,
+				"aggressiveness": "HIGH",
+				"metrics": {
+					"injected-checks": 14,
+					"injected-checks-targets": 3078,
+					"manual-checks": 0
+				},
+				"score": 0.5
+			},
+			{
+				"name": "DEX_ROOT_DETECTOR",
+				"type": "ALLOWLIST",
+				"configured_value": "ENABLED",
+				"active": true,
+				"has_injection_config": true,
+				"continue_on_callback": true,
+				"spray": true,
+				"entry": true,
+				"aggressiveness": "MEDIUM",
+				"metrics": {
+					"injected-checks": 4,
+					"injected-checks-targets": 1539,
+					"manual-checks": 0
+				},
+				"score": 0.36000000000000004
+			},
+			{
+				"name": "DEX_VIRTUAL_ENVIRONMENT_DETECTOR",
+				"type": "ALLOWLIST",
+				"configured_value": "ENABLED",
+				"active": true,
+				"has_injection_config": true,
+				"continue_on_callback": true,
+				"spray": true,
+				"entry": true,
+				"aggressiveness": "MEDIUM",
+				"metrics": {
+					"injected-checks": 3,
+					"injected-checks-targets": 1538,
+					"manual-checks": 0
+				},
+				"score": 0.27
+			},
+			{
+				"name": "DEX_LOCAL_HARDWARE_CHECKER",
+				"type": "ALLOWLIST",
+				"configured_value": "DISABLED",
+				"has_injection_config": true,
+				"aggressiveness": "MEDIUM",
+				"metrics": {
+					"injected-checks": 0,
+					"injected-checks-targets": 0,
+					"manual-checks": 0
+				}
+			},
+			{
+				"name": "DEX_MALWARE_A11Y",
+				"type": "UNSPECIFIED_FEATURE_TYPE",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"injected-checks": 0,
+					"injected-checks-targets": 0
+				},
+				"options": [
+					{
+						"name": "DEX_MALWARE_CUSTOM_MESSAGE",
+						"configured_value": "DISABLED"
+					},
+					{
+						"name": "DEX_MALWARE_CALLBACK",
+						"configured_value": "DISABLED"
+					},
+					{
+						"name": "DEX_MALWARE_A11Y_DEVICE_ADMIN",
+						"configured_value": "DISABLED"
+					},
+					{
+						"name": "DEX_MALWARE_CRASH_ON",
+						"configured_value": "ENABLED",
+						"active": true
+					}
+				]
+			},
+			{
+				"name": "DEX_MALWARE_OVERLAYS",
+				"type": "UNSPECIFIED_FEATURE_TYPE",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"injected-checks": 0,
+					"injected-checks-targets": 0
+				},
+				"options": [
+					{
+						"name": "DEX_MALWARE_CUSTOM_MESSAGE",
+						"configured_value": "DISABLED"
+					},
+					{
+						"name": "DEX_MALWARE_CALLBACK",
+						"configured_value": "DISABLED"
+					}
+				]
+			},
+			{
+				"name": "DEX_MALWARE_SCREEN_RECORDING",
+				"type": "UNSPECIFIED_FEATURE_TYPE",
+				"configured_value": "ENABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"injected-checks": 5,
+					"injected-checks-targets": 5
+				}
+			},
+			{
+				"name": "DEX_MALWARE_ACTIVITY_INJECTION",
+				"type": "UNSPECIFIED_FEATURE_TYPE",
+				"configured_value": "DISABLED",
+				"aggressiveness": "UNSPECIFIED_CONFIG_LEVEL",
+				"metrics": {
+					"injected-checks": 0,
+					"injected-checks-targets": 0
+				},
+				"options": [
+					{
+						"name": "DEX_MALWARE_CUSTOM_MESSAGE",
+						"configured_value": "DISABLED"
+					},
+					{
+						"name": "DEX_MALWARE_CALLBACK",
+						"configured_value": "DISABLED"
+					}
+				]
+			}
+		],
+		"auto_config": "UNSPECIFIED_ENABLED_VALUE",
+		"kpi_app_ip_safety": 0.11041710878508981,
+		"kpi_app_capabilities_and_monetization": 0.30621496783985286,
+		"kpi_app_data_leak_and_forgery_safety": 0.22403508771929823,
+		"kpi_app_clone_repackaging_protection": 0.5872727272727272,
+		"kpi_app_environment_safety": 0.554,
+		"kpi_version_recentness": 1,
+		"triggered_rules": [
+			"report_ineffective_runtime_checks/dex_hook_detector",
+			"report_ineffective_runtime_checks/dex_root_detector",
+			"report_ineffective_runtime_checks/dex_virtual_environment_detector",
+			"report_missing_certificate_hash/dex_certificate_checker",
+			"report_insufficient_injection_locations_dex/dex_tamper_detector",
+			"report_insufficient_injection_locations_dex/dex_certificate_checker",
+			"report_insufficient_injection_locations_dex/dex_emulator_detector",
+			"report_insufficient_injection_locations_dex/dex_root_detector",
+			"report_insufficient_injection_locations_dex/dex_virtual_environment_detector",
+			"report_continueon_integrity_rasp_dex/dex_hook_detector",
+			"report_no_runtime_threat_monitoring"
+		],
+		"metadata": {
+			"all-detectors-entangled": "7.0",
+			"compile-sdk-version": "34",
+			"dont-process-kotlin-metadata": "false",
+			"entangled-SPRAY": "7.0",
+			"flutter": "False",
+			"flutter-obfuscated": "False",
+			"legacy-constructor-reflection": "false",
+			"min-sdk-version": "23",
+			"no-detectors-entangled": "36.0",
+			"not-entangled-ENTRYPOINT/DOMINATOR": "13.0",
+			"not-entangled-SPRAY": "25.0",
+			"package-names": "[za.co.conor.vodacom.drc.uat]",
+			"react-native-enabled": "False",
+			"some-detectors-entangled": "0.0",
+			"target-sdk-version": "34"
+		},
+		"build_id": "ef422387-57be-423e-8332-d68fed5a2dde"
+	}
+}

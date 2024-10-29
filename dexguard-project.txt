@@ -1,0 +1,52 @@
+# Print extra logging information.
+-verbose
+
+# Include a DexGuard default configuration.
+-include /lib/dexguard-release.pro
+
+# Enable spray and entrypoint injection for all detectors.
+-raspchecks *
+
+# For example, to increase the amount of injected hook detections you can put the following in your DexGuard configuration
+
+-raspaggressiveness hook high
+
+# To inject defenses against screen spying, you can specify the following option:
+-malwareprotect screenrecording
+
+# This is not enabled by default but can be enabled with the following option:
+-malwarecrashon a11y
+
+# DexGuard needs to know the Android SDK path.
+-androidsdk /Users/philodi/Library/Android/sdk
+
+# Here is the path to the unprotected APK, normally this is the location
+# for the android platform output. You should specific the variant that you
+# would like to protected.
+-injars /Users/philodi/Developer/Vodafone/app/VodacomTest/platforms/android/app/build/outputs/apk/release/app-release.apk
+# This is the output protected APK.
+-outjars /Users/philodi/developer/Vodafone/app/VodacomTest/platforms/android/app/build/outputs/apk/release/app-release-protected.apk
+
+# Add a JavaScript configuration: for more information
+# about configuring JavaScript obfuscation see https://platform.guardsquare.com/manual/dexguard/stable/latest/languages_platforms/javascript/index.html
+-javascriptconfiguration javascript.yml
+
+# Exclude vendor.js which contains third-party libs containing ES2022 code.
+-obfuscatejavascript !assets/app/vendor.js,assets/**.js
+
+# We need to keep the NativeScript engine libraries.
+-keepresourcefiles lib/*/*.so
+
+# We need to keep some classes from shrinking, obfuscation since they
+# are accessed from the NativeScript side.
+-keep,includecode class org.nativescript.**,com.tns.**,androidx.** { *; }
+
+# Put your own keystore information here so that DexGuard can sign the APK.
+-keystore /Users/philodi/developer/Vodafone/app/VodacomTest/vodacom.keystore
+-keystorepassword 12345678
+-keypassword 12345678
+-keyalias vodacom
+-apksignatureschemes v1,v2
+
+# Output report file
+-protectionreportdirectory /Users/philodi/developer/Vodafone/app/VodacomTest/reports
